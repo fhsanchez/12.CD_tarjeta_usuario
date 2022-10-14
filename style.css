@@ -1,0 +1,81 @@
+h2, h4, p {
+    margin: 0px;   
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/***************MAIN*****************/
+main {
+    width: 1000px;    
+    margin-top: 20px;
+    margin-left: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+main section {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+main section .card {
+    background: #17a2b8;
+    padding-top: 100px;
+    margin-right: 10px;
+}
+main section .card .perfil {
+    background-color: #FFFFFF;
+    height: 300px;
+    border: solid 2px #333333;
+    border-top: none;
+    padding-left: 30px;
+}
+main section .card .perfil .avatar {
+    width: 120px;
+    position: relative;
+    top: -60px;
+}
+main section .card .perfil .avatar img {
+    width: 120px;
+}
+main section .card .perfil .nombre {
+    font-size: 3em;
+    margin-top: -60px;
+}
+main section .card .perfil .ubicacion {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+main section .card .perfil .ubicacion img {
+    height: 20px;
+    margin-right: 5px;
+}
+main section .card .perfil .ubicacion h3 {
+    margin: 0px;
+}
+main section .card .perfil .cargo p {
+    margin: 16px 0px;
+}
+main section .card .perfil .editar {
+    display: flex;
+    flex-direction: row;
+}
+main section .card .perfil .editar img {
+    height: 20px;
+    margin-right: 5px;
+}
+main section .card .perfil .editar a {
+    text-transform: lowercase;
+    color: #2b78e4;
+}
